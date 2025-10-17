@@ -1,0 +1,33 @@
+{
+  "name": "FAHH-F5E Tiger II",
+  "modelPath": "models/f5e/model.dae",
+  "texturePath": "models/f5e/texture.png",
+  "mass": 4700,
+  "engineThrust": 16000,
+  "maxSpeed": 950,
+  "liftCoeff": 1.2,
+  "dragCoeff": 0.03,
+  "cockpitView": {
+    "position": [0.0, 1.2, 2.5],
+    "rotation": [0.0, 0.0, 0.0]
+  },
+  "gearAnimation": {
+    "type": "rotation",
+    "axis": [0, 1, 0],
+    "angle": 90,
+    "duration": 2.5
+  },
+  "flaps": {
+    "positions": [0, 15, 30],
+    "effect": 0.2
+  },
+  "camera": {
+    "default": {
+      "position": [0, 3, -10],
+      "rotation": [0, 0, 0]
+    }
+  },
+  "description": "Avión ceremonial FAHH-F5E Tiger II, símbolo de restauración aérea continental. Activado por decreto presidencial como cápsula de justicia técnica.",
+  "author": "DANILO",
+  "license": "Ceremonial Legacy Attribution"
+}
